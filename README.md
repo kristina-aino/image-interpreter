@@ -4,7 +4,7 @@ This project aims to provide the infrastructure, the environment and the functio
 Two Goals:
   1) Generate images based on priors from a variety of sources, and then selecting or editing those priors (like captions) to have more fine grained controll over image generation.
   2) Explore and compare different options for model deployment, the collection and recollection of data (local), finetuning, inference, speed and other architectural questions.
-
+  3) Compare different models in performance, ability to generate and other relevant metrics
 
 ## Features
 
@@ -12,7 +12,14 @@ Two Goals:
 - provided with an image a set of models extracts the following meta informatioin from it:
   - depth
   - pose
-  - segmentation ([FCN](https://pytorch.org/hub/pytorch_vision_fcn_resnet101/), [densenet](https://pytorch.org/hub/pytorch_vision_densenet/), [YOLOv5](https://pytorch.org/hub/ultralytics_yolov5/), [Resnext WSL](https://pytorch.org/hub/facebookresearch_WSL-Images_resnext/), [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything))
+  - segmentation 
+    - [sqeezenet](https://pytorch.org/hub/pytorch_vision_squeezenet/)
+    - [SNNMLP](https://pytorch.org/hub/pytorch_vision_snnmlp/)
+    - [FCN](https://pytorch.org/hub/pytorch_vision_fcn_resnet101/)
+    - [densenet](https://pytorch.org/hub/pytorch_vision_densenet/)
+    - [YOLOv5](https://pytorch.org/hub/ultralytics_yolov5/)
+    - [Resnext WSL](https://pytorch.org/hub/facebookresearch_WSL-Images_resnext/)
+    - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
   - caption ([Amazon Bedrock](https://aws.amazon.com/bedrock/?nc2=h_ql_prod_ml_br), )
   - more...
 - this additional information is given to a set of controlnet's to generate a new image each from the abstract priors
