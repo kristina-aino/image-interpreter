@@ -8,8 +8,8 @@
   - pose
   - segmentation
   - caption
-- this additional information is given to a controlnet architecture to generate a new set of images from these abstract descriptions
-- lastly a CLIP model evaluates the different generated images and their respective abstract structural inputs
+  - more...
+- this additional information is given to a set of controlnet's to generate a new image each from the abstract priors
 
 ### Deployment Functions
 - All models are provided on [Hugginface](https://huggingface.co/) and should be downloaded once at initialization in a dedicated permanent storage, most likely cloud
@@ -23,3 +23,15 @@
   - [seldon](https://github.com/SeldonIO/seldon-core)
   - [clear-ml](https://github.com/allegroai/clearml)
   - [ml-flow](https://github.com/mlflow/mlflow)
+  - my own flask REST API
+
+
+
+### Further features
+- The different informations extracted from the image should be combined at some point
+- an interface to engage with generated images
+- a CLIP model should be used to evaluate priors -> images mappings to compare and select different image samples by hand (both for generation at inference time and for collecting user data
+- super resolution
+- stable diffusion latent interpolation with some selected fixed point consistency (maybe in the priors, maybe apply to video)
+
+### TODO
