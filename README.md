@@ -12,8 +12,8 @@ Two Goals:
 - provided with an image a set of models extracts the following meta informatioin from it:
   - depth
   - pose
-  - segmentation
-  - caption
+  - segmentation ([FCN](https://pytorch.org/hub/pytorch_vision_fcn_resnet101/), [densenet](https://pytorch.org/hub/pytorch_vision_densenet/), [YOLOv5](https://pytorch.org/hub/ultralytics_yolov5/), [Resnext WSL](https://pytorch.org/hub/facebookresearch_WSL-Images_resnext/), [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything))
+  - caption ([Amazon Bedrock](https://aws.amazon.com/bedrock/?nc2=h_ql_prod_ml_br), )
   - more...
 - this additional information is given to a set of controlnet's to generate a new image each from the abstract priors
 
@@ -40,5 +40,7 @@ Two Goals:
 - a CLIP model should be used to evaluate priors -> images mappings to compare and select different image samples by hand (both for generation at inference time and for collecting user data
 - super resolution
 - stable diffusion latent interpolation with some selected fixed point consistency (maybe in the priors, maybe apply to video)
+- leverage conversational agents (e.g. [OpenAssistant](https://huggingface.co/OpenAssistant)) to help steer editing
+
 
 ### TODO
