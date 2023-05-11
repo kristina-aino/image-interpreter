@@ -18,3 +18,8 @@
   - *in case of tensorflow models [TensorFlow Serve](https://www.tensorflow.org/tfx/guide/serving)*
   - [PyTorch on VertexAI](https://cloud.google.com/blog/topics/developers-practitioners/pytorch-google-cloud-how-deploy-pytorch-models-vertex-ai)
   - [Triton inference server](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tritonserver)
+  - [BentoML](https://github.com/bentoml/bentoml)
+  - [awslabs/multi-model-server](https://github.com/awslabs/multi-model-server)
+  - [seldon](https://github.com/SeldonIO/seldon-core)
+  - [clear-ml](https://github.com/allegroai/clearml)
+  - [ml-flow](https://github.com/mlflow/mlflow)
