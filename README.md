@@ -24,7 +24,8 @@
   - [clear-ml](https://github.com/allegroai/clearml)
   - [ml-flow](https://github.com/mlflow/mlflow)
   - my own flask REST API
-
+- models should be available individually as well as in a pipeline
+- There should be an interface for finetuning specific models, recording their progress and versioning.
 
 
 ### Further features
