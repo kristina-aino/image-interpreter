@@ -14,7 +14,7 @@
 ### Deployment Functions
 - All models are provided on (Hugginface)[https://huggingface.co/] and should be downloaded once at initialization in a dedicated permanent storage, most likely cloud
 - The backend loads and serves the different models, but i want to test the following frameworks:
-  - (TorchServe)[https://github.com/pytorch/serve/tree/master]
-  - *in case of tensorflow models (TensorFlow Serve)[https://www.tensorflow.org/tfx/guide/serving]*
-  - (PyTorch on VertexAI)[https://cloud.google.com/blog/topics/developers-practitioners/pytorch-google-cloud-how-deploy-pytorch-models-vertex-ai]
-  - (Triton inference server)[https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tritonserver]
+  - [TorchServe](https://github.com/pytorch/serve/tree/master)
+  - *in case of tensorflow models [TensorFlow Serve](https://www.tensorflow.org/tfx/guide/serving)*
+  - [PyTorch on VertexAI](https://cloud.google.com/blog/topics/developers-practitioners/pytorch-google-cloud-how-deploy-pytorch-models-vertex-ai)
+  - [Triton inference server](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tritonserver)
