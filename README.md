@@ -1,5 +1,11 @@
 # image-interpreter
 
+This project aims to provide the infrastructure, the environment and the functionality for generating images based on abstract information extracted from a sample picture.
+Two Goals:
+  1) Generate images based on priors from a variety of sources, and then selecting or editing those priors (like captions) to have more fine grained controll over image generation.
+  2) Explore and compare different options for model deployment, the collection and recollection of data (local), finetuning, inference, speed and other architectural questions.
+
+
 ## Features
 
 ### Model Functions
